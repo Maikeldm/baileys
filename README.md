@@ -33,6 +33,17 @@ Begin by installing the library via your preferred package manager, then follow 
 
 ## SendMessage Documentation
 
+### Status Group Message V2
+Send group status with version 2 
+
+```javascript
+await sock.sendMessage(jid, {
+     groupStatusMessage: {
+          text: "Hello World"
+     }
+});
+```
+
 ### Album Message (Multiple Images)
 Send multiple images in a single album message:
 
